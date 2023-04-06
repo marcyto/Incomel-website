@@ -2,11 +2,14 @@ import { Link } from 'react-router-dom'
 import './footer.css'
 import {AiOutlinePhone, AiOutlineMail} from 'react-icons/ai'
 import {FiMapPin} from 'react-icons/fi'
+import {BsWhatsapp} from 'react-icons/bs';
+import WebAnimation from '../Animation';
 
 
 export default function Footer() {
     return(
         <div className='footer'>
+            <WebAnimation/>
             <div className='institucional'>
                 <h1>Institucional</h1>
                 <Link to="/sobre">Quem somos</Link>

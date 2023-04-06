@@ -1,18 +1,13 @@
 
 import Header from "../../components/Header";
 import './home.css';
-import { Link } from "react-router-dom";
-import {} from 'react-icons/'
-import { FaCreditCard, FaWhatsapp } from "react-icons/fa";
-import { TbTruckDelivery } from "react-icons/tb";
 import SliderProducts from "../../components/SliderProdutos";
 import SliderBrands from "../../components/SliderMarcas";
-import {BsFillBoxSeamFill} from 'react-icons/bs';
-import {GiSmartphone} from 'react-icons/gi';
 import SliderBanner from "../../components/SliderBanner";
 import Footer from "../../components/Footer";
 import Cards from "../../components/Cards";
 import { useEffect } from "react";
+import OrcamentoCall from '../../components/OrcamentoCall';
 
 export default function Home(){
     useEffect(()=> {
@@ -35,6 +30,7 @@ export default function Home(){
                     <SliderBrands />
                 </div>
             </div>
+            <OrcamentoCall/>
             
             <Footer/>
             
