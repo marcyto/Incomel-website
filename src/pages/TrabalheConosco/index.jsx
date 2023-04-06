@@ -3,11 +3,10 @@ import Footer from '../../components/Footer';
 import { useState, useEffect } from "react";
 import './orcamento.css';
 
-export default function Orcamentos(){
+export default function TrabalheConosco(){
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [empresa, setEmpresa] = useState('');
     const [numero, setNumero] = useState('');
 
     useEffect(()=> {
@@ -24,12 +23,11 @@ export default function Orcamentos(){
             <div className="container">
                 <div className="content orcamento">
                     <form onSubmit={handleSubmit}>
-                        <h1>Orçamentos</h1>
-                        <p>Preencha o formulário e entraremos em contato assim <br/>que possivel com o seu orçamento</p>
+                        <h1>Trabalhe Conosco</h1>
+                        <p>Preencha o formulário e nos envie seu currículo</p>
                         <input type="text" value={name} placeholder="Nome completo"/>
                         <input type="email" value={email} placeholder="Email"/>
                         <input type="text" value={numero} placeholder="Telefone"/>
-                        <input type="text" value={empresa} placeholder="Empresa (opcional)"/>
                         <label>Arquivo em pdf</label>
                         <input type="file" />
                         <button type="submit">ENVIAR</button>

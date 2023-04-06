@@ -11,7 +11,7 @@ export default function Footer() {
                 <h1>Institucional</h1>
                 <Link to="/sobre">Quem somos</Link>
                 <Link to="/orcamentos">Orçamentos</Link>
-                <Link>Trabalhe Conosco</Link>
+                <Link to="/curriculo">Trabalhe Conosco</Link>
                 <Link to="/contato">Contato</Link>
             </div>
             <div className='lojas'>

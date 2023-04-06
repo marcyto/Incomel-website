@@ -4,10 +4,13 @@ import Footer from "../../components/Footer";
 import Cards from '../../components/Cards';
 import SliderLoja from "../../components/SliderLoja";
 import OrcamentoCall from "../../components/OrcamentoCall";
-
 import './sobre.css';
 
 export default function Sobre(){
+
+    useEffect(()=> {
+        window.scrollTo(0, 0)
+    }, [])
 
     return(
         <div>   

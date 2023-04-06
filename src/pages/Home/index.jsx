@@ -12,8 +12,12 @@ import {GiSmartphone} from 'react-icons/gi';
 import SliderBanner from "../../components/SliderBanner";
 import Footer from "../../components/Footer";
 import Cards from "../../components/Cards";
+import { useEffect } from "react";
 
 export default function Home(){
+    useEffect(()=> {
+        window.scrollTo(0, 0)
+    }, [])
     return(
         <div>
             <Header/>

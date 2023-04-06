@@ -3,8 +3,13 @@ import Footer from "../../components/Footer";
 import { FaPhone, FaWhatsapp } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import './contato.css';
+import { useEffect } from "react";
 
 export default function Contato(){
+
+    useEffect(()=> {
+        window.scrollTo(0, 0)
+    }, [])
 
     return(
         <div>   

@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Contato from './pages/Contato';
 import Orcamentos from './pages/Orçamentos';
+import TrabalheConosco from "./pages/TrabalheConosco";
 
 
 export default function RoutesApp(){
@@ -12,6 +13,7 @@ export default function RoutesApp(){
             <Route exact path="/orcamentos" element={< Orcamentos /> }/>
             <Route exact path="/contato" element={<Contato/>}/>
             <Route exact path="/sobre" element={<Sobre/>}/>
+            <Route exact path="/curriculo" element={<TrabalheConosco/>}/>
         </Routes>
     )
 }
