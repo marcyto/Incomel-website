@@ -1,0 +1,89 @@
+.orcamento-call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10rem;
+   
+}
+.orcamento-call .gradient{
+    background-color: rgb(252, 0, 0);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link_img{
+    width: 374px;
+    height: 500px;
+}
+.link_img img{
+    max-width: 374px;
+    max-height: 500px;
+}
+.link_msg{
+    margin-left: 10rem;
+    color: #ffffff;
+    right: 30%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.link_msg span{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.button_link{
+    display: none;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 10px;
+    width: 70%;
+    justify-content: center;
+    background-color: #ffd000;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.button_link svg{
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width:600px){
+    .orcamento-call{
+        margin-top: 1rem;
+    }
+    .orcamento-call .gradient{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background-color: #ffffff;
+        width: 100%;
+    }
+    .link_img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 320px;
+        height: 320px;
+    }
+    .link_img img{
+        max-width: 320px;
+        max-height: 400px;
+        
+    }
+    .link_msg{
+        display: flex;
+        margin-left: 0;
+        flex-direction: column;
+        background-color: red;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .button_link{
+        margin-top: 1rem;
+        display: flex;
+        
+    }
+}

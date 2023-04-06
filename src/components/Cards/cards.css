@@ -1,0 +1,44 @@
+.banner-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    gap: 4rem;
+    height: auto;
+
+}
+.banner-cards p{
+    font-size: 20px;
+}
+.cards{
+    margin-bottom: 1rem;
+    width: 13rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    background:transparent;
+
+}
+
+@media screen and (max-width: 600px){
+    .banner-cards{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 1rem;
+        height: auto;
+        margin-top: 10px;
+    }
+    .cards{
+        width: 10rem;
+        margin-bottom: 0;
+        margin-top: -3rem;
+    }
+    .banner-cards p{
+        font-size: 17px;
+    }
+}
