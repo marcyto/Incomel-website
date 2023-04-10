@@ -10,14 +10,11 @@ import emailjs from '@emailjs/browser';
 
 export default function Orcamentos(){
 
-
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [empresa, setEmpresa] = useState('');
     const [numero, setNumero] = useState('');
     const [message, setMessage] = useState('');
-
-
 
     useEffect(()=> {
         window.scrollTo(0, 0)
@@ -25,6 +22,10 @@ export default function Orcamentos(){
 
     function handleSubmit(e){
         e.preventDefault();
+        if(name === '' || email === '' || message === '' || numero === ''){
+            alert("Preencha todos os campos.");
+            return;
+        }
 
         const templateParams = {
             from_name: name,
