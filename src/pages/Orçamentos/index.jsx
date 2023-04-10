@@ -10,7 +10,8 @@ import sgMail from '@sendgrid/mail';
 
 export default function Orcamentos(){
 
-    sgMail.setApiKey(process.env.client_key);
+    const apiKey = process.env.Client_Key
+    sgMail.setApiKey(apiKey);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [empresa, setEmpresa] = useState('');

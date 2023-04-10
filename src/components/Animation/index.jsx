@@ -19,7 +19,7 @@ const WebAnimation = () => {
     }, [])
     
     return(
-        <a className='linkWhats' ref={container}></a> 
+        <a href="https://api.whatsapp.com/send?phone=5582982011349" className='linkWhats' ref={container}></a> 
     )
 }
 export default WebAnimation;
