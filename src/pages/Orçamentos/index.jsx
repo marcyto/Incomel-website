@@ -1,21 +1,23 @@
 
 import Header from "../../components/Header";
 import Footer from '../../components/Footer';
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import './orcamento.css';
+import emailjs from '@emailjs/browser';
 
-import sgMail from '@sendgrid/mail';
 
  
 
 export default function Orcamentos(){
 
-    const apiKey = process.env.Client_Key
-    sgMail.setApiKey(apiKey);
+
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [empresa, setEmpresa] = useState('');
     const [numero, setNumero] = useState('');
+    const [message, setMessage] = useState('');
+
+
 
     useEffect(()=> {
         window.scrollTo(0, 0)
@@ -23,17 +25,29 @@ export default function Orcamentos(){
 
     function handleSubmit(e){
         e.preventDefault();
-        const msg = {
-            to: 'incomel.project@gmail.com',
-            from: email,
-            subject: 'Solicitacao de orcamento',
-            text: 'Conteúdo do e-mail em formato de texto',
-            html: '<p>Conteúdo do e-mail em formato HTML</p>',
-        };
-        sgMail.send(msg)
-        .then(() => console.log('E-mail enviado com sucesso!'))
-        .catch((error) => console.error(error));
-       
+
+        const templateParams = {
+            from_name: name,
+            name: name,
+            message: message,
+            email: email,
+            telefone: numero,
+            empresa: empresa,
+            reply_to: email 
+        }
+
+        emailjs.send("service_vzzw9we", "template_uyuii3h", templateParams, "PueGa5hvYEQxKP113")
+        .then((response)=>{
+            console.log("Email enviado", response.status, response.text);
+            setEmail('');
+            setName('');
+            setNumero('');
+            setEmpresa('');
+            setMessage('');
+        }, (err) =>{
+            console.log("error", err)
+        })
+
       }
     return(
         <div>
@@ -47,8 +61,7 @@ export default function Orcamentos(){
                         <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email"/>
                         <input type="text" value={numero} onChange={(e) => setNumero(e.target.value)} placeholder="Telefone"/>
                         <input type="text" value={empresa} onChange={(e) => setEmpresa(e.target.value)} placeholder="Empresa (opcional)"/>
-                        <label>Arquivo em pdf</label>
-                        <input type="file" />
+                        <textarea placeholder="Digite sua solicitação" value={message} onChange={(e)=> setMessage(e.target.value)}></textarea>
                         <button type="submit">ENVIAR</button>
                     </form>
                 </div>

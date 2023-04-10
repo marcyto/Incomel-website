@@ -50,6 +50,15 @@
     background-color: rgb(162, 0, 0);
 
 }
+.orcamento form textarea{
+    width: 90%;
+    border: 1px solid #bdbdbd;
+    padding: 15px;
+    resize: none;
+    height: 10rem;
+    font-size: 18px;
+    color: rgb(111, 110, 110);
+}
 @media screen and (max-width:600px) {
     .orcamento{
         height: 100vh;
