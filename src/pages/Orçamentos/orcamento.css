@@ -64,7 +64,7 @@
 @media screen and (max-width:600px) {
     .container .orcamento{
         height: 110vh;
-        width: 90%;
+        width: 100%;
     }
     .container .orcamento form{
         display: flex;
