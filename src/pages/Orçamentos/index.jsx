@@ -1,8 +1,9 @@
 
 import Header from "../../components/Header";
 import Footer from '../../components/Footer';
-import { useState, useEffect, useRef } from "react";
 import './orcamento.css';
+import { useState, useEffect } from "react";
+
 import emailjs from '@emailjs/browser';
 
 
@@ -54,7 +55,7 @@ export default function Orcamentos(){
         <div>
             <Header/>
             <div className="container">
-                <div className="content orcamento">
+                <div className="orcamento">
                     <form onSubmit={handleSubmit}>
                         <h1>Orçamentos</h1>
                         <p>Preencha o formulário e entraremos em contato assim <br/>que possivel com o seu orçamento</p>

@@ -30,7 +30,7 @@ const WebAnimation = () => {
                 <motion.div
                 animate={{
                 x: 70,
-                y: -30,
+                y: -50,
                 scale: 1,
                 rotate: 0,
                 }}
@@ -40,7 +40,7 @@ const WebAnimation = () => {
                 <motion.div
                 animate={{
                 x: 70,
-                y: -80,
+                y: -100,
                 scale: 1,
                 rotate: 0,
                 }}
@@ -50,7 +50,7 @@ const WebAnimation = () => {
                 <motion.div
                 animate={{
                 x: 70,
-                y: -130,
+                y: -150,
                 scale: 1,
                 rotate: 0,
                 }}
