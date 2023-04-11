@@ -1,12 +1,15 @@
 
 import lottie from 'lottie-web';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Animation from './animation.json';
+import './animation.css';
+import {BsWhatsapp} from 'react-icons/bs';
+import { motion } from "framer-motion"
 
 const WebAnimation = () => {
     
     const container = useRef(null)
-
+    const [cascataActive, setCascataActive] = useState(false);
     useEffect(()=>{
         lottie.loadAnimation({
             container: container.current,
@@ -15,11 +18,52 @@ const WebAnimation = () => {
             autoplay: true,
             animationData: Animation,
         });
-
+        console.log(cascataActive)
     }, [])
     
     return(
-        <a href="https://api.whatsapp.com/send?phone=5582982011349" className='linkWhats' ref={container}></a> 
+    <div className='linkWhats'>
+        <button onClick={()=> setCascataActive(!cascataActive)} className='linkWhats' ref={container}></button> 
+
+        {cascataActive && (
+            <>
+                <motion.div
+                animate={{
+                x: 70,
+                y: -30,
+                scale: 1,
+                rotate: 0,
+                }}
+                >
+                    <a className='whats_button' href="https://api.whatsapp.com/send?phone=5582982011349">Maceió-Jatiúca<BsWhatsapp color="#ffffff"size={30}/></a>
+                </motion.div>
+                <motion.div
+                animate={{
+                x: 70,
+                y: -80,
+                scale: 1,
+                rotate: 0,
+                }}
+                >
+                    <a className='whats_button' href="https://api.whatsapp.com/send?phone=5582982011349">Maceió-Jaraguá<BsWhatsapp color="#ffffff"size={30}/></a>
+                </motion.div>
+                <motion.div
+                animate={{
+                x: 70,
+                y: -130,
+                scale: 1,
+                rotate: 0,
+                }}
+                >
+                    <a className='whats_button' href="https://api.whatsapp.com/message/IRAWCCHVQ4ZSN1?autoload=1&app_absent=0">Recife-Imbiribeira<BsWhatsapp color="#ffffff"size={30}/></a>
+                </motion.div>
+                
+                
+            </>
+        )}
+        
+    </div>
+       
     )
 }
 export default WebAnimation;

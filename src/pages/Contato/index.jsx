@@ -22,19 +22,19 @@ export default function Contato(){
                         <h1>Unidade Jaraguá</h1>
                         <a href="https://api.whatsapp.com/send?phone=5582982011349">
                             <div className="backSvg">
-                                <FaWhatsapp size={30} color="#FFF"/>
+                                <FaWhatsapp color="#FFF"/>
                             </div>
-                            <div>
+                            <div className="txt">
                                 <h2>Vendas pelo whatsapp</h2>
                                 <p>82 98201-1349</p>
                             </div>
                         </a>
                         <a href='tel:+558232163300'>
                             <div className="backSvg">
-                                <FaPhone size={30} color="#FFF"/>
+                                <FaPhone color="#FFF"/>
                             </div>
                             
-                            <div>
+                            <div className="txt">
                                 <h2>Televendas</h2>
                                 <p>(82) 3216-3300</p>
                             </div>
@@ -42,10 +42,10 @@ export default function Contato(){
                         </a>
                         <a href="mailto:vendas@incomel.com.br">
                             <div className="backSvg">
-                                <AiOutlineMail size={30} color="#FFF"/>
+                                <AiOutlineMail color="#FFF"/>
                             </div>
                             
-                            <div>
+                            <div className="txt">
                                 <h2>Mande um email</h2>
                                 <p>82 98201-1349</p>
                             </div>
@@ -61,18 +61,18 @@ export default function Contato(){
                         <h1>Unidade Jatiúca</h1>
                         <a href="https://api.whatsapp.com/send?phone=5582982011349">
                             <div className="backSvg">
-                                <FaWhatsapp size={30} color="#FFF"/>
+                                <FaWhatsapp color="#FFF"/>
                             </div>
-                            <div>
+                            <div className="txt">
                                 <h2>Vendas pelo whatsapp</h2>
                                 <p>82 98201-1349</p>
                             </div>
                         </a>
                         <a href="tel:+558230237963">
                             <div className="backSvg">
-                                <FaPhone size={30} color="#FFF"/>
+                                <FaPhone color="#FFF"/>
                             </div>
-                            <div>
+                            <div className="txt">
                                 <h2>Televendas</h2>
                                 <p>(82) 3023-7963</p>
                             </div>
@@ -80,9 +80,9 @@ export default function Contato(){
                         </a>
                         <a href="mailto:contas@incomel.com.br">
                             <div className="backSvg">
-                                <AiOutlineMail size={30} color="#FFF"/>
+                                <AiOutlineMail color="#FFF"/>
                             </div>
-                            <div>
+                            <div className="txt">
                                 <h2>Mande um email</h2>
                                 <p>Clique aqui</p>
                             </div>
@@ -97,9 +97,9 @@ export default function Contato(){
                         <h1>Unidade Recife</h1>
                         <a href="https://api.whatsapp.com/message/IRAWCCHVQ4ZSN1?autoload=1&app_absent=0">
                             <div className="backSvg">
-                                <FaWhatsapp size={30} color="#FFF"/>
+                                <FaWhatsapp color="#FFF"/>
                             </div>
-                            <div>
+                            <div className="txt">
                                 <h2>Vendas pelo whatsapp</h2>
                                 <p>82 98201-1349</p>
                             </div>
@@ -107,9 +107,9 @@ export default function Contato(){
                         </a>
                         <a href='tel: +558134972800'>
                             <div className="backSvg">
-                                <FaPhone size={30} color="#FFF"/>
+                                <FaPhone color="#FFF"/>
                             </div>
-                            <div>
+                            <div className="txt">
                                 <h2>Televendas</h2>
                                 <p>(81) 3497-2800</p>
                             </div>
@@ -117,9 +117,9 @@ export default function Contato(){
                         </a>
                         <a href="mailto:incomel.pe@incomel.com.br">
                             <div className="backSvg">
-                                <AiOutlineMail size={30} color="#FFF"/>
+                                <AiOutlineMail color="#FFF"/>
                             </div>
-                            <div>
+                            <div className="txt">
                                 <h2>Mande um email</h2>
                                 <p>Clique aqui</p>
                             </div>

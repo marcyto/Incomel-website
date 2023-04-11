@@ -34,7 +34,7 @@
 .whats{
     position: absolute;
     left: 18%;
-    z-index: 100;
+    z-index: 1;
     background-color: #fff;
 }
 .produtos{

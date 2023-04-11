@@ -1,0 +1,39 @@
+
+.linkWhats button{
+  position: relative;
+  border: 0;
+  background: transparent;
+}
+
+.whats_button{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+  padding: 5px;
+  width: 9rem;
+  border-radius: 10px;
+  font-size: 13px;
+  color: #FFF 
+}
+
+.whats_button{
+  background-color: #42c704;
+}
+
+.whats_button:nth-child(2) {
+  transform: translate(-45px, -105px);
+}
+
+.whats_button:nth-child(3) {
+ 
+  transform: translate(-45px, -155px);
+}
+
+.whats_button:nth-child(4) {
+  transform: translate(-45px, -205px);
+}

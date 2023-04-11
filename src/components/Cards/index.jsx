@@ -10,11 +10,11 @@ export default function Cards(){
     return(
         <div className="banner-cards">
                    
-            <a className="cards" href="">
+            <div className="cards" >
                 <GiSmartphone size={60} color="#797979"/>
                 <FaWhatsapp className="whats" size={30} color="#018d11"/>
                 <p>Compre aqui <br/>pelo whatsapp</p>
-            </a>
+            </div>
 
             <div className="cards">
                 <FaCreditCard size={40} color="#797979"/>

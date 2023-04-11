@@ -7,9 +7,13 @@ import WebAnimation from '../Animation';
 
 
 export default function Footer() {
+
     return(
         <div className='footer'>
-            <WebAnimation/>
+            <div className='linkWhats'>
+                <WebAnimation/>
+            </div>
+            
             <div className='institucional'>
                 <h1>Institucional</h1>
                 <Link to="/sobre">Quem somos</Link>

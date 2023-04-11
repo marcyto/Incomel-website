@@ -31,6 +31,7 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
+    z-index: 100;
 }
 .nav_menu a{
     font-size: 22px;

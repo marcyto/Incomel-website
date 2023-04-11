@@ -23,8 +23,6 @@ export default function SliderProducts(){
         }else{
             setSize(5)
         }
-        console.log(windowWidth)
-        console.log(size)
     }, [size])
    
 
