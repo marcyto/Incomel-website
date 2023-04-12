@@ -26,7 +26,7 @@ export default function Contato(){
                             </div>
                             <div className="txt">
                                 <h2>Vendas pelo whatsapp</h2>
-                                <p>82 98201-1349</p>
+                                <p>(82) 98201-1349</p>
                             </div>
                         </a>
                         <a href='tel:+558232163300'>
@@ -65,7 +65,7 @@ export default function Contato(){
                             </div>
                             <div className="txt">
                                 <h2>Vendas pelo whatsapp</h2>
-                                <p>82 98201-1349</p>
+                                <p>(82) 98201-1349</p>
                             </div>
                         </a>
                         <a href="tel:+558230237963">
@@ -101,7 +101,7 @@ export default function Contato(){
                             </div>
                             <div className="txt">
                                 <h2>Vendas pelo whatsapp</h2>
-                                <p>81 98201-1349</p>
+                                <p>(81) 3497-2800</p>
                             </div>
                             
                         </a>
