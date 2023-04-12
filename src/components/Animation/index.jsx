@@ -30,17 +30,17 @@ const WebAnimation = () => {
                 <motion.div
                 animate={{
                 x: 70,
-                y: -50,
+                y: -60,
                 scale: 1,
                 rotate: 0,
                 }}
                 >
-                    <a className='whats_button' href="https://api.whatsapp.com/send?phone=5582982011349">Maceió-Jatiúca<BsWhatsapp color="#ffffff"size={30}/></a>
+                    <a className='whats_button' href="https://api.whatsapp.com/send?phone=558230237970">Maceió-Jatiúca<BsWhatsapp color="#ffffff"size={30}/></a>
                 </motion.div>
                 <motion.div
                 animate={{
                 x: 70,
-                y: -100,
+                y: -110,
                 scale: 1,
                 rotate: 0,
                 }}
@@ -50,12 +50,12 @@ const WebAnimation = () => {
                 <motion.div
                 animate={{
                 x: 70,
-                y: -150,
+                y: -160,
                 scale: 1,
                 rotate: 0,
                 }}
                 >
-                    <a className='whats_button' href="https://api.whatsapp.com/message/IRAWCCHVQ4ZSN1?autoload=1&app_absent=0">Recife-Imbiribeira<BsWhatsapp color="#ffffff"size={30}/></a>
+                    <a className='whats_button' href="https://api.whatsapp.com/send?phone=558134972800">Recife-Imbiribeira<BsWhatsapp color="#ffffff"size={30}/></a>
                 </motion.div>
                 
                 

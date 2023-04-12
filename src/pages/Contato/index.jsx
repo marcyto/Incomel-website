@@ -59,13 +59,13 @@ export default function Contato(){
 
                     <div className="unidades">
                         <h1>Unidade Jatiúca</h1>
-                        <a href="https://api.whatsapp.com/send?phone=5582982011349">
+                        <a href="https://api.whatsapp.com/send?phone=558230237970">
                             <div className="backSvg">
                                 <FaWhatsapp color="#FFF"/>
                             </div>
                             <div className="txt">
                                 <h2>Vendas pelo whatsapp</h2>
-                                <p>(82) 98201-1349</p>
+                                <p>(82) 3023-7970</p>
                             </div>
                         </a>
                         <a href="tel:+558230237963">
@@ -95,7 +95,7 @@ export default function Contato(){
                     </div>
                     <div className="unidades">
                         <h1>Unidade Recife</h1>
-                        <a href="https://api.whatsapp.com/message/IRAWCCHVQ4ZSN1?autoload=1&app_absent=0">
+                        <a href="https://api.whatsapp.com/send?phone=55813497280">
                             <div className="backSvg">
                                 <FaWhatsapp color="#FFF"/>
                             </div>
