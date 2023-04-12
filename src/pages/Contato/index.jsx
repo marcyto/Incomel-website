@@ -47,7 +47,7 @@ export default function Contato(){
                             
                             <div className="txt">
                                 <h2>Mande um email</h2>
-                                <p>82 98201-1349</p>
+                                <p>Clique aqui</p>
                             </div>
                             
                         </a>
@@ -101,7 +101,7 @@ export default function Contato(){
                             </div>
                             <div className="txt">
                                 <h2>Vendas pelo whatsapp</h2>
-                                <p>82 98201-1349</p>
+                                <p>81 98201-1349</p>
                             </div>
                             
                         </a>
