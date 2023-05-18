@@ -33,7 +33,7 @@ export default function Header() {
                 <div className='midia-icons'>
                     <Link to="/contato"><FaMapMarkerAlt size={24} color='#FFF'/></Link>
                     <a href='https://www.facebook.com/pages/INCOMEL-Comércio-de-Materiais-Elétricos/195578097154094'><FaFacebookF size={24} color='#FFF'/></a>
-                    <a href='https://www.instagram.com/incomel_grupo/'><FaInstagram size={24} color='#FFF'/></a>
+                    <a href='https://instagram.com/incomel.oficial?igshid=MzRlODBiNWFlZA=='><FaInstagram size={24} color='#FFF'/></a>
                 </div>
             </ul>
 
