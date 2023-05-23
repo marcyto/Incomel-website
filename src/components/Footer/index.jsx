@@ -48,7 +48,7 @@ export default function Footer() {
                         <h3>Incomel - Recife</h3>
                         <p>
                             <FiMapPin size={20}/>
-                            R. Aleixo de Abreu, 202<br/>
+                            R. Aleixo de Abreu, 152<br/>
                             Imbiribeira, Recife - PE, 51160-410
                         </p>
                         <a href='tel: +558134972800'><AiOutlinePhone size={20}/> (81) 3497-2800</a>
