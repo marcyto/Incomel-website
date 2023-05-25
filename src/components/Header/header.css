@@ -111,6 +111,7 @@
         background:rgb(255, 255, 255);
         transform: translateX(100%);
         transition: 0.5s ease-in;
+        gap: 2.4rem;
     }
     .midia-icons{
         margin-left: 10rem;
