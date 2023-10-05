@@ -57,6 +57,16 @@ const WebAnimation = () => {
                 >
                     <a className='whats_button' href="https://api.whatsapp.com/send?phone=558134972800">Recife-Imbiribeira<BsWhatsapp color="#ffffff"size={30}/></a>
                 </motion.div>
+                <motion.div
+                animate={{
+                x: 70,
+                y: -210,
+                scale: 1,
+                rotate: 0,
+                }}
+                >
+                    <a className='whats_button' href="https://api.whatsapp.com/send?phone=558134972800">João Pessoa-Nordife<BsWhatsapp color="#ffffff"size={30}/></a>
+                </motion.div>
                 
                 
             </>

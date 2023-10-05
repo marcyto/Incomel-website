@@ -3,6 +3,7 @@ import { imageBanner } from '../../assets/Banner';
 
 import {Navigation, Pagination, Autoplay} from 'swiper';
 
+import './sliderbanner.css'
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -18,13 +19,13 @@ export default function SliderBanner(){
             delay: 2500,
             disableOnInteraction: false
         }}
-        centeredSlides={true}
         grabCursor={true}
         pagination={true}
+        
         >
             {imageBanner.map((item, index) => {
                 return (
-                    <SwiperSlide key={index}>
+                    <SwiperSlide className='banner_slider' key={index}>
                         <img src={item.image} alt='Banner image'/>
                     </SwiperSlide>
                 )
