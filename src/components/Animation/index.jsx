@@ -65,7 +65,8 @@ const WebAnimation = () => {
                 rotate: 0,
                 }}
                 >
-                    <a className='whats_button' href="https://api.whatsapp.com/send?phone=558134972800">João Pessoa-Nordife<BsWhatsapp color="#ffffff"size={30}/></a>
+                    <a className='whats_button' href="https://api.whatsapp.com/send?phone=5583988520264">João Pessoa-Nordife<BsWhatsapp color="#ffffff"size={30}/></a>
+                    
                 </motion.div>
                 
                 

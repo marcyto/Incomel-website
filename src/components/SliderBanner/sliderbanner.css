@@ -1,8 +1,17 @@
 .banner_slider:first-child{
-    margin-top: 2.1rem;
+    margin-top: 2.7rem;
 }
+
 @media screen and (max-width:768px){
     .banner_slider:not(:first-child){
         margin-top: 1rem;
+    }
+}
+@media screen and (max-width:600px){
+    .banner_slider:not(:first-child){
+        margin-top: 6rem;
+    }
+    .banner_slider:first-child{
+        margin-top: 6rem;
     }
 }

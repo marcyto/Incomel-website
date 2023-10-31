@@ -55,6 +55,17 @@ export default function Footer() {
                         <p><AiOutlineMail size={20}/> incomel.pe@incomel.com.br</p>
                         
                     </div>
+                    <div className='atendimentos'>
+                        <h3>Nordife - João Pessoa</h3>
+                        <p>
+                            <FiMapPin size={20}/>
+                            Av. Maximiano Figueiredo, 153<br/>
+                             - Centro João Pessoa - PB, 58013-470
+                        </p>
+                        <a href='tel: +558332084500'><AiOutlinePhone size={20}/> (83) 3208-4500</a>
+                        <p><AiOutlineMail size={20}/> vendas@nordife.com.br</p>
+                        
+                    </div>
                 </div>
             </div>
             <div className='horario'>
